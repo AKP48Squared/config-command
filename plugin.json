@@ -1,0 +1,17 @@
+{
+  "name": "config-command",
+  "type": "MessageHandler",
+  "description": "Adds a command to configure AKP48.",
+  "main": "main.js",
+  "commands": {
+    "config": {
+      "helpText": "Configure AKP48.",
+      "usageText": "[TODO]",
+      "perms": [
+        "AKP48.op",
+        "AKP48.owner",
+        "irc.channel.op"
+      ]
+    }
+  }
+}
